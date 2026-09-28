@@ -1,0 +1,13 @@
+# Generated on 2026-11-10
+# Exclude build artifacts
+public/**/*.html linguist-vendored
+go.sum linguist-generated
+*.py linguist-detectable
+public/index.html linguist-vendored
+
+**/*.py linguist-detectable
+*.svg text
+*.jpeg binary
+
+* text=auto eol=lf
+# eof df4bb195
